@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.a2019rednews">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.SEND_SMS" />
+    <uses-permission android:name="android.permission.RECEIVE_SMS" />
+    <uses-permission android:name="android.permission.BLUETOOTH" />
+    <uses-permission android:name="android.permission.BLUETOOTH_ADMIN" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".FloorsActivity.three_fire"></activity>
+
+        <service
+            android:name=".bluetoothservice"
+            android:enabled="true"
+            android:exported="true" />
+        <service
+            android:name=".bluetoothservice"
+            android:enabled="true"
+            android:exported="true" />
+
+        <activity android:name=".FloorsActivity.six" />
+        <activity android:name=".FloorsActivity.five" />
+        <activity android:name=".ExtendActivity.sj6Activity" />
+        <activity android:name=".ExtendActivity.sj5Activity" />
+        <activity android:name=".ExtendActivity.sj4Activity" />
+        <activity android:name=".ExtendActivity.sj3Activity" />
+        <activity android:name=".ExtendActivity.sj2Activity" />
+        <activity android:name=".ExtendActivity.sj1Activity" />
+        <activity
+            android:name=".PopupActivity"
+            android:theme="@android:style/Theme.Dialog" />
+        <activity android:name=".MapActivity" />
+        <activity android:name=".FloorsActivity.four" />
+        <activity android:name=".FloorsActivity.three" />
+        <activity android:name=".FloorsActivity.two" />
+        <activity android:name=".FloorsActivity.one" />
+        <activity android:name=".MainActivity" />
+
+        <meta-data
+            android:name="com.google.android.geo.API_KEY"
+            android:value="AIzaSyAV6kcWDkUef6TaF3ERKHBcgsUvMZZGEBM" />
+
+        <activity
+            android:name=".SplashActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/SplashTheme">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

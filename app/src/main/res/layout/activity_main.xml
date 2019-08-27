@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:padding="16dp"
+    tools:context="com.example.a2019rednews.MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:paddingBottom="8dp">
+
+        <TextView
+            android:id="@+id/txtResult"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+
+
+    <TextView
+        android:id="@+id/tv_title"
+        android:layout_width="match_parent"
+        android:layout_height="90dp"
+        android:gravity="center"
+        android:text="현재 계신 층을 선택하세요"
+        android:textColor="#ff000000"
+        android:textSize="12pt" />
+
+    <TextView
+        android:id="@+id/default_activity_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center">
+
+        <Button
+            android:id="@+id/btn1F"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="1층" />
+
+        <Button
+            android:id="@+id/btn2F"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="2층" />
+
+        <Button
+            android:id="@+id/btn3F"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="3층" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center">
+
+        <Button
+            android:id="@+id/btn4F"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="4층" />
+
+        <Button
+            android:id="@+id/btn5F"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="5층" />
+
+        <Button
+            android:id="@+id/btn6F"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="6층" />
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <Button
+            android:id="@+id/btnSms"
+            android:layout_width="221dp"
+            android:layout_height="58dp"
+            android:text="119 바로 신고" />
+    </LinearLayout>
+
+</LinearLayout>
